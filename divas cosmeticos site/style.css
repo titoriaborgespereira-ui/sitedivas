@@ -1,0 +1,234 @@
+/* 🌸 DIVAS COSMÉTICOS — ESTILO PRINCIPAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+    text-align: center;
+}
+
+/* Fundo da logo */
+.logo-area {
+    background-color: #f9e6ef;
+    padding: 25px 0 15px;
+}
+
+.logo-img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.entrega-texto {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+/* ======= MENU ======= */
+.menu-dourado {
+    
+    background-color: #fff;
+    border-top: 2px solid #d4af37;
+    border-bottom: 2px solid #d4af37;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
+.menu-dourado ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+    gap: 25px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.menu-dourado ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu-dourado ul li a:hover {
+    color: #d4af37;
+}
+
+/* ======= PESQUISA E CARRINHO ======= */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 30px;
+}
+
+.search-bar {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.cart {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contador {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #d4af37;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+/* ======= BANNER ======= */
+.banner {
+    background-color: #fdf5f8; /* um rosa clarinho de fundo */
+    text-align: center; /* centraliza o texto */
+    padding: 60px 20px; /* espaço em cima e embaixo */
+}
+
+.banner h2 {
+    color: #000; /* preto */
+    font-family: 'Parisienne', cursive;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* ======= PRODUTOS ======= */
+.produtos {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+
+}
+.produtos img {
+    border-radius: 10%;
+    width: 150px;
+    right: 150px;
+    object-fit: cover;
+}
+.container {
+     background-color: #fff;
+    max-width: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+.hero {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+
+
+  
+
+
+
+
+/* Nome */
+esfoliante corporal {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Botão */
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b8902c;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+    background-color: #f9e6ef;
+    border-top: 2px solid #d4af37;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+footer p, footer a {
+    font-size: 14px;
+    color: #333;
+}
+
+.copy {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+    .menu-dourado {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
